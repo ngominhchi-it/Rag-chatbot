@@ -22,7 +22,7 @@ import pandas as pd
 app = FastAPI()
 
 # Load dữ liệu và khởi tạo mô hình
-os.environ["OPENAI_API_KEY"] = "sk-..."  # <-- Đặt tạm, lát sẽ chuyển thành biến môi trường
+os.environ["OPENAI_API_KEY"] = "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"  # <-- Đặt tạm, lát sẽ chuyển thành biến môi trường
 
 # Đọc CSV
 df = pd.read_csv("HANH_VI.csv")
